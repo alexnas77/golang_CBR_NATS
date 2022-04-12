@@ -6,7 +6,7 @@ for example
 
 # go install github.com/nats-io/nats.go/@latest
 
-# nats-server
+# nats-server -m 8222 -DV
 
 Then build and run 
 
