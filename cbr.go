@@ -133,7 +133,7 @@ func getCurrency() {
 	sendCh := make(chan interface{})
 	err = ec.BindSendChan("hello", sendCh)
 	if err != nil {
-		return
+		log.Fatal(err.Error())
 	}
 	me := result["Valute"]
 	// Send via Go channels
