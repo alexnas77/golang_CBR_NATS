@@ -23,7 +23,7 @@ func getCurrency() {
 	filename := "Last-Modified.txt"
 
 	if _, err := os.Stat(filename); os.IsNotExist(err) {
-		fmt.Println("File Last-Modified.txt does not exist")
+		fmt.Println("File " + filename + " does not exist")
 		f, err := os.Create(filename)
 		if err != nil {
 			log.Fatal(err.Error())
