@@ -78,7 +78,7 @@ func getCurrency() {
 	}
 	fmt.Println(string(h))*/
 
-	file, err := os.OpenFile(filename, os.O_APPEND|os.O_WRONLY, 0644)
+	file, err := os.OpenFile(filename, os.O_RDWR|os.O_CREATE, 0644)
 	if err != nil {
 		log.Fatal(err.Error())
 	}

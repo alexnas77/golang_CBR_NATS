@@ -12,6 +12,6 @@ Then build and run
 
 # go run receive.go
 
-Finaly build and run
+Finally, build and run
 
 # go run cbr.go
