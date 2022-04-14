@@ -153,7 +153,7 @@ func getCurrency() {
 func main() {
 	for true {
 		getCurrency()
-		time.Sleep(120 * time.Second)
+		time.Sleep(60 * time.Second)
 	}
 
 }
